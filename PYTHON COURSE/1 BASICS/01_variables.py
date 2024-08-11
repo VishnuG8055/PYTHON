@@ -72,7 +72,7 @@ print(f"The price is ${price:.2f}")  # Formatting float to 2 decimal places
 # The price is $10.99
 
 # STRING
-name = "Viishnu"
+name = "Vishnu"
 number = "1"
 food = "Biryani"
 email = "Vishnu123@gmail.com"
@@ -84,7 +84,7 @@ print(f"You like {food}")
 print(f"Your email is: {email}")
 
 # Output- 
-# Hello Viishnu
+# Hello Vishnu
 # You like Biryani
 # Your email is: Vishnu123@gmail.com
 
