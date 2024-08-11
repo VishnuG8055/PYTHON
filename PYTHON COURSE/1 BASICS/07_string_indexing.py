@@ -34,9 +34,15 @@ print(credit_number)     # 6543-2109-8765-4321 (REVERSE THE STRING)
 
 # PYTHON EMAIL SLICER EXERCISE 📧
 email = input("Enter your email: ")
-username = email[:email.index("@")]
-domain = email[email.index("@") + 1:]
-print(f"Your username is {username} and domain is {domain}")
+
+# Ensure there is an '@' character in the email
+if '@' in email and email.count('@') == 1:
+    username = email[:email.index("@")]
+    domain = email[email.index("@") + 1:]
+    print(f"Your username is {username} and domain is {domain}")
+else:
+    print("Invalid email format.")
+
 
 import os
 
