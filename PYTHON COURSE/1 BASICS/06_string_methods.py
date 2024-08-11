@@ -31,9 +31,11 @@ print(help(str))   # Gives list of string methods
 
 username = input("Enter a username: ")
 
+username = input("Enter a username: ")
+
 if len(username) > 12:
    print("Your name can't be more than 12 characters")
-elif not username.find(" ") == -1:
+elif " " in username:
    print("Your username can't contain spaces")
 elif not username.isalpha():
    print("Your username can't contain digits")
