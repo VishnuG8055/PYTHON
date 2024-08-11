@@ -4,7 +4,7 @@
 # Single-line comment
 # This is a single-line comment
 
-# Multi-line comment (Triple-quoted)
+# Multi-line comment (Triple-quoted) ( """   """ )
 """
 This is a multi-line comment
 Triple-quoted strings are also used for docstrings,
@@ -16,19 +16,30 @@ which are documentation strings for functions, classes, and modules.
 # -------------------------------
 # A variable is a reusable container for storing a value.
 # A variable behaves as if it were the value it contains.
-age = 4
+age = 20
 print(age)
-print("You are", age, "years old")
+print("You are", age, "years old")  
 
-# Concatenation
+# Output- 
+#  20
+#  You are 20 years old
+
+#--------------------------------
+
+# CONCATENATION
+age = 20
+
 # String concatenation
-print("You are " + str(age) + " years old")
+print("You are " + str(age) + " years old")   # Output -  You are 20 years old
 
 # Separated arguments
-print("You are", age, "years old")  # Space between every argument
+print("You are", age, "years old")  # Adds Space between every arguments
+                                    # Output - You are 20 years old
 
 # f-strings (formatted string literals)
-print(f"You are {age} years old")
+print(f"You are {age} years old")   # Output - You are 20 years old
+
+# --------------------------------
 
 # DIFFERENT DATA TYPES IN PYTHON
 
@@ -37,9 +48,14 @@ age = 21
 players = 2
 quantity = 5
 
-print(f"You are {age} years old")
+print(f"You are {age} years old")         
 print(f"There are {players} players online")
 print(f"You would like to buy {quantity} items")
+
+# Output - 
+# You are 21 years old
+# There are 2 players online
+# You would like to buy 5 items
 
 # FLOAT
 gpa = 3.2
@@ -50,17 +66,28 @@ print(f"Your GPA is {gpa}")
 print(f"You ran {distance} Km")
 print(f"The price is ${price:.2f}")  # Formatting float to 2 decimal places
 
+# Output- 
+# Your GPA is 3.2
+# You ran 2.5 Km
+# The price is $10.99
+
 # STRING
-name = "Bro"
+name = "Viishnu"
 number = "1"
-food = "pizza"
-email = "Bro123@gmail.com"
+food = "Biryani"
+email = "Vishnu123@gmail.com"
 
 # In Python, there is no char type; single characters are strings of length 1.
 
 print(f"Hello {name}")
 print(f"You like {food}")
 print(f"Your email is: {email}")
+
+# Output- 
+# Hello Viishnu
+# You like Biryani
+# Your email is: Vishnu123@gmail.com
+
 
 # BOOLEAN
 online = True
@@ -71,14 +98,19 @@ print(f"Are you online?: {online}")
 print(f"Is the item for sale?: {for_sale}")
 print(f"Game running: {running}")
 
+# Output - 
+# Are you online?: True
+# Is the item for sale?: False
+# Game running: False
+
 # -------------------------------
 #     MULTIPLE ASSIGNMENT
 # -------------------------------
 
 # Multiple assignment allows you to assign multiple variables at once.
 x, y, z = 1, 2, 3
-print(x, y, z)
+print(x, y, z)     # Output - 1 2 3
 
 # Multiple variables can be assigned the same value.
 x = y = z = 1
-print(x, y, z)
+print(x, y, z)     # Output - 1 1 1
