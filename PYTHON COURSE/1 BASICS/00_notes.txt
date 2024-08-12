@@ -1,0 +1,20 @@
+MODULES -  A Module is a File containing code written by somebody else (usually) which can be imported and used in our programs
+Types-
+1) BUILT IN MODULES  --> Pre installed in python    (math, datetime, os, sys, and random)
+2) EXTERNAL MODULES  --> Need to install using PIP  (pytorch, tensorflow, flask)
+
+PIP - PIP is the package manager for python . You can use pip to intsall a module on your System.
+
+USING PYTHON AS A CALCULATOR
+We can use python as a CALCULATOR by typing "pyhton" + enter on the terminal
+>>> 5 + 3
+8
+
+PYTHON REPL (Read Evaluate Print Loop)
+It is an interactive programming environment that takes user inputs (reads), evaluates them (eval), and returns the result to the user (prints), then waits for more inputs (loop).
+
+>>> 3 + 7
+10
+>>> name = "Alice"
+>>> print("Hello, " + name)
+Hello, Alice
