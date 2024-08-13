@@ -5,6 +5,8 @@ Types-
 
 PIP - PIP is the package manager for python . You can use pip to intsall a module on your System.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 USING PYTHON AS A CALCULATOR
 We can use python as a CALCULATOR by typing "pyhton" + enter on the terminal
 >>> 5 + 3
@@ -18,3 +20,7 @@ It is an interactive programming environment that takes user inputs (reads), eva
 >>> name = "Alice"
 >>> print("Hello, " + name)
 Hello, Alice
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
