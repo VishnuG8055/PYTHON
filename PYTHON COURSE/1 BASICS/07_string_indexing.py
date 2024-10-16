@@ -43,6 +43,12 @@ if '@' in email and email.count('@') == 1:
 else:
     print("Invalid email format.")
 
+# OUTPUT :--------------------------------------------------
+"""
+Enter your email: vishnugavara123@gmail.com
+Your username is vishnugavara123 and domain is gmail.com
+"""
+#------------------------------------------------------------
 
 import os
 
