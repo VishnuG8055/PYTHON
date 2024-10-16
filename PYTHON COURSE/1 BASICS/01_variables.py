@@ -79,7 +79,7 @@ print(f"The price is ${price:.2f}")  # Formatting float to 2 decimal places
 name = "Vishnu"
 number = "1"
 food = "Biryani"
-email = "Vishnu123@gmail.com"
+email = "vishnu123@gmail.com"
 
 # In Python, there is no char type; single characters are strings of length 1.
 
@@ -90,7 +90,7 @@ print(f"Your email is: {email}")
 # Output- 
 # Hello Vishnu
 # You like Biryani
-# Your email is: Vishnu123@gmail.com
+# Your email is: vishnu123@gmail.com
 
 
 # BOOLEAN
